@@ -54,22 +54,27 @@
             text-align: center;
             padding: 2rem;
         }
+        @font-face {
+            font-family: 'customfont';
+            src: url(CircularXX-Bold.c6b27bce.woff2) format(woff2);
+        }
 
         .status-text h1 {
+            font-family: 'customfont';
             font-size: 3.5rem;
             font-weight: bold;
             margin-bottom: 0.5rem;
         }
 
         .status-text p {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'customfont';
             font-size: 2.5rem;
             font-weight: bold;
             margin-bottom: 0.2rem;
         }
 
         .checkmark {
-            width:85%;
+            width:90%;
             margin-bottom: 1rem;
         }
 
@@ -112,17 +117,17 @@
 <body>
     <header>
         <div class="navbar">
-            <img class="menu-logo" src="logo.png"> 
+            <img class="menu-logo" src="/img/logo.png"> 
             <div class="menu-icon">&#9776;</div>
         </div>
     </header>
 
     <main>
         <div class="status-section">
-            <img class="checkmark" src="check.png">
+            <img class="checkmark" src="img/check.png">
             <div class="status-text">
                 <h1>Cleared to Enter</h1>
-                <p>12 / 9 / 2024</p>
+                <p>12/9/2024</p>
                 <p>3:39:00 PM</p>
             </div>
         </div>
